@@ -95,7 +95,7 @@ header{
 .main-container{
 
     .banner{
-        background-image: url(../../images/bg.svg);
+        background-image: url(../images/bg.svg);
         font-family: 'Conv_bpg_mrgvlovani_caps_2010';
         background-repeat: no-repeat;
         background-size: 67%;
@@ -107,6 +107,7 @@ header{
 
         .banner-left{
             margin: 0 60px;
+            width: 65%;
 
             .see-more{
                 margin-top: 50px;
@@ -127,6 +128,14 @@ header{
 
 
                 }
+            }
+        }
+
+        .banner-right{
+            width: 100%;
+
+            img{
+                width: 100%;
             }
         }
     }

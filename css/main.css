@@ -57,7 +57,7 @@ header {
   color: #073269; }
 
 .main-container .banner {
-  background-image: url(../../images/bg.svg);
+  background-image: url(../images/bg.svg);
   font-family: 'Conv_bpg_mrgvlovani_caps_2010';
   background-repeat: no-repeat;
   background-size: 67%;
@@ -67,7 +67,8 @@ header {
   align-items: center;
   padding: 80px 0; }
   .main-container .banner .banner-left {
-    margin: 0 60px; }
+    margin: 0 60px;
+    width: 65%; }
     .main-container .banner .banner-left .see-more {
       margin-top: 50px; }
       .main-container .banner .banner-left .see-more a {
@@ -80,6 +81,10 @@ header {
         .main-container .banner .banner-left .see-more a:hover {
           background: #F98C90;
           color: white; }
+  .main-container .banner .banner-right {
+    width: 100%; }
+    .main-container .banner .banner-right img {
+      width: 100%; }
 .main-container .payment {
   display: flex;
   justify-content: center;
