@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 25 25">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 25 25">
+      <image width="25" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAADBUlEQVRIibVWS0hUURj+7tOZOy9npvGRiqk1kCn4QMQis8hWYUSrIBJz0ULauCiiTesoWoWLSAhqUYtKQcIeWhFISLoQZpGZY44P1JlmdJzHfca9OpOvmTsafnA5h/+e//v4/3PO/x8CG5DlPHSNMbuu0JyzgKCzzARBIlMoigxFjIfFiH9GCC8+i/u93QnXhAhnzCvvsVe2NMp8hOWDPhAUDYKgMpNQZIixZZC0AYYDpQDF8H/Ger9E5z0XAEQ0EWNe+XtX/dWzyz8GYSqqhcF1OOMItiI670Fk3gOb+wwWhro/ROc9zZSaIkfVpY7w5BBlr2wBY8nds4AKxuyCwVEMkjaCseYW8iHfLK3ugZoiNQKSMaZnUBQooUlwcggUtZbpsLEMYC2blpGsSRuNOW5W22N1k9U9sFecT88vRFAU/opbN9pQW1MFlmUxNjaG9nv9kLeIbITKT2uniKJ10+BaHcGb513Izs5O2iyW1OQJqPy0ekwzOUXFuZakwKuePjx6+hoCz0Nmj6UXIUjoh7AOZ7YtOe99+xFT3AmAS+8TnhrWRt3bFg94UbbyDtUV7qTtZEMdGh0TqKG/gwh5U/pK0aA26kYiCzHcvnkdTU1NSVt762W0twIDAwNoe/AJjA5H5nVjB3h/z4JgrSn/ZzlLtFE3Espgwd37j1H2ogdPuh5qto7OO/g144d/aRFUzrnUzuu1T1eEtRXAhwIYA9+Strkgj3GmHsj/V/x2QnxpQrP+V7oyxZ5Eqo8377+IzZGz/yK7Bal1NEXaldvw576M1qm8Kj+ttkyF1K9dkijA61273aHAAoCD+iKSqLVkwlxcN2AuaThNsSYYXEdSOtCrPtDSijYXKTNEU1FagdjiT0jxMMLeoUFSbfokw/Gr06OQhWhKJ9FUiJj1qPbpCag8q9MjIFmOV/kpKRocFSOBU46qi6UhT7/WHWnOrpuKVIj7J7E8Pgiruwn+kZeDscXxzu2vFSHCCqE5gKRApL3Pm6FAAWQJjDVfi2DbayWBfXl3AfgLDBEtKcw2kDsAAAAASUVORK5CYII="/>
+    </pattern>
+  </defs>
+  <rect id="facebook" width="25" height="25" rx="10" fill="url(#pattern)"/>
+</svg>
