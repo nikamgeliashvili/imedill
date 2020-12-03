@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+.form-container{
+    background-image: url(../../images/bg.svg);
+    background-size: 110%;
+    background-position: 260px -510px;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    
+    .form-header{
+        margin: 40px 0;
+    
+        .main-title{
+            h1{
+                font-size: 30px;
+            color:#113268;
+            text-align: center;
+            }
+        }
+    
+        .breadcrumb{
+            font-size: 14px;
+            background:transparent;
+            justify-content: center;
+    
+            li{
+                padding-right: 8px;
+    
+                a{
+                    color: #113268;
+                }
+            }
+    
+            li + li:before {
+                
+                color: #3e9578;
+                content: "/\00a0";
+            } 
+        }
+    }
+
+    .common-form{
+        width: 50%;
+        margin: 0 auto;
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.1), 0 16px 13px rgba(0,0,0,0.22);
+
+
+        .common-form-header{
+            background-image: url(../../images/mask\ header.svg), url(../../images/Rectangle\ 22.svg);
+            padding: 25px 0;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: center;
+            border-radius: 10px 10px 0 0;
+
+
+            h2{
+                font-size: 30px;
+                text-align: center;
+                color: white;
+                
+            }
+        }
+
+        .colors{
+            height: 10px;
+            background: grey;
+
+            .yellow{
+                width: 25%;
+                background: #FFE31E;
+                height: 10px;
+            }
+        }
+
+        .form-info{
+            font-size: 16px;
+            color: #113268;
+            text-align: center;
+            padding: 10px;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .form-content{
+            margin: 15px 25px;
+
+            .form-section{
+                display: flex;
+                justify-content: space-between;
+
+                .personal-id{
+                    width: 100% !important;
+                }
+
+                .form-group{
+                    display: flex;
+                    flex-direction: column;
+                    width: 48%;
+
+                    img{
+                        margin-left: 35px;
+                    }
+
+                    span{
+                        color: #113268;
+                        font-size: 14px;
+                    }
+
+                    .common-input{
+                        border: 1px solid #6CB5E4;
+                        border-radius: 8px;
+                        padding: 10px;
+                        margin-top: 5px;
+                        outline: none;
+                        font-size: 14px;
+                        color: #113268;
+                    }
+
+                    input::-webkit-outer-spin-button,
+                    input::-webkit-inner-spin-button {
+                    -webkit-appearance: none;
+                    margin: 0;
+                    }
+
+                    select{
+                        padding: 11px;
+                        font-size: 14px;
+                        border: 1px solid #6CB5E4;
+                        border-radius: 8px;
+                        outline: none;
+                        color: #113268;
+                        -webkit-appearance: none;
+                        -moz-appearance: none;
+                        appearance: none;      
+                        background-image: url(../../images/arrow\ select.svg);
+                        background-position: 300px;
+                        background-repeat: no-repeat;
+                    }
+                }
+            }
+
+            .form-footer{
+                padding: 35px 0;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                span:nth-child(1){
+                    font-size: 22px;
+                    color:#F98C90;
+                }
+
+                span:nth-child(3){
+                    font-size: 14px;
+                    color:#113268;
+                }
+
+
+                .back-button{
+                    border: 1px solid #F6F6F8;
+                    padding: 15px 50px;
+                    border-radius: 10px;
+                    color: #6CB5E4;
+                    margin: 0 5px;
+                }
+
+                .next-button{
+                    background: #6CB5E4;
+                    padding: 15px 35px;
+                    border-radius: 10px;
+                    color: white;
+                    margin: 0 5px;
+                    
+                }
+            }
+        }
+    }
+
+    
+
+}
