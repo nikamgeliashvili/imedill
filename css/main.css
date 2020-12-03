@@ -259,10 +259,9 @@ footer {
             opacity: 0;
             cursor: pointer; }
           .form-container .common-form .form-content .form-question .question-input input:checked ~ .checkmark {
-            background-color: #3e9578;
-            border: 1px solid #3e9578;
-            padding: 2px;
-            padding: 1px;
+            background-color: #113268;
+            border: 2px solid #113268;
+            padding: 3px;
             background-clip: content-box; }
           .form-container .common-form .form-content .form-question .question-input .checkmark {
             position: absolute;
