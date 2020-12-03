@@ -421,6 +421,8 @@ footer {
       .form-container .price-calc-section .price-calc-form .terms-checkbox {
         text-align: center;
         position: unset; }
+        .form-container .price-calc-section .price-calc-form .terms-checkbox .cart-button {
+          position: relative; }
         .form-container .price-calc-section .price-calc-form .terms-checkbox .checkmark {
           top: 0;
           left: 315px;
