@@ -181,13 +181,13 @@ footer {
   padding: 0; }
 
 .form-container {
-  background-image: url(../../images/bg.svg);
+  background-image: url(../images/bg.svg);
   background-size: 110%;
   background-position: 260px -510px;
   background-repeat: no-repeat;
   margin-bottom: 100px; }
   .form-container .form-header {
-    margin: 40px 0; }
+    padding: 40px 0; }
     .form-container .form-header .main-title h1 {
       font-size: 30px;
       color: #113268;
@@ -227,6 +227,10 @@ footer {
         width: 25%;
         background: #FFE31E;
         height: 10px; }
+      .form-container .common-form .colors .yellow-2 {
+        width: 50%;
+        background: #FFE31E;
+        height: 10px; }
     .form-container .common-form .form-info {
       font-size: 16px;
       color: #113268;
@@ -236,6 +240,48 @@ footer {
       margin: 0 auto; }
     .form-container .common-form .form-content {
       margin: 15px 25px; }
+      .form-container .common-form .form-content .form-question {
+        padding: 30px 0; }
+        .form-container .common-form .form-content .form-question .main-question {
+          margin-bottom: 20px; }
+        .form-container .common-form .form-content .form-question .question-input-2 {
+          margin-left: 80px; }
+        .form-container .common-form .form-content .form-question .question-input {
+          position: absolute; }
+          .form-container .common-form .form-content .form-question .question-input .cart_button {
+            margin-left: 35px; }
+          .form-container .common-form .form-content .form-question .question-input input {
+            width: 20px;
+            height: 20px;
+            margin-right: 30px; }
+          .form-container .common-form .form-content .form-question .question-input input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer; }
+          .form-container .common-form .form-content .form-question .question-input input:checked ~ .checkmark {
+            background-color: #3e9578;
+            border: 1px solid #3e9578;
+            padding: 2px;
+            padding: 1px;
+            background-clip: content-box; }
+          .form-container .common-form .form-content .form-question .question-input .checkmark {
+            position: absolute;
+            top: 2px;
+            left: 6px;
+            height: 20px;
+            width: 20px;
+            background-color: #eee;
+            border-radius: 50%; }
+          .form-container .common-form .form-content .form-question .question-input .checkmark:after {
+            display: block; }
+          .form-container .common-form .form-content .form-question .question-input .checkmark:after {
+            content: "";
+            position: absolute; }
+        .form-container .common-form .form-content .form-question img {
+          margin-left: 35px; }
+        .form-container .common-form .form-content .form-question span {
+          color: #113268;
+          font-size: 14px; }
       .form-container .common-form .form-content .form-section {
         display: flex;
         justify-content: space-between; }
