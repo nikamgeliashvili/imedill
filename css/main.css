@@ -210,8 +210,8 @@ footer {
     border-radius: 15px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1), 0 16px 13px rgba(0, 0, 0, 0.22); }
     .form-container .common-form .common-form-header {
-      background-image: url(../../images/mask\ header.svg), url(../../images/Rectangle\ 22.svg);
-      padding: 25px 0;
+      background-image: url(../images/mask\ header.svg), url(../images/Rectangle\ 22.svg);
+      padding: 22px 0;
       background-repeat: no-repeat;
       background-size: 100%;
       background-position: center;
