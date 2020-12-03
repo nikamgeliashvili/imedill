@@ -231,6 +231,14 @@ footer {
         width: 50%;
         background: #FFE31E;
         height: 10px; }
+      .form-container .common-form .colors .yellow-3 {
+        width: 70%;
+        background: #FFE31E;
+        height: 10px; }
+      .form-container .common-form .colors .yellow-4 {
+        width: 90%;
+        background: #FFE31E;
+        height: 10px; }
     .form-container .common-form .form-info {
       font-size: 16px;
       color: #113268;
@@ -284,13 +292,18 @@ footer {
         align-items: center; }
         .form-container .common-form .form-content .form-section .personal-id {
           width: 100% !important; }
+        .form-container .common-form .form-content .form-section .form-group-long {
+          width: 100% !important; }
+          .form-container .common-form .form-content .form-section .form-group-long select {
+            background-position: 97%; }
         .form-container .common-form .form-content .form-section .form-group {
           display: flex;
           flex-direction: column;
           width: 48%; }
           .form-container .common-form .form-content .form-section .form-group .car-price {
             display: flex;
-            align-items: center; }
+            align-items: center;
+            margin-bottom: 7px; }
             .form-container .common-form .form-content .form-section .form-group .car-price img {
               margin-left: 10px; }
           .form-container .common-form .form-content .form-section .form-group .car-price-input {
@@ -335,6 +348,10 @@ footer {
             background-image: url(../images/arrow\ select.svg);
             background-position: 265px;
             background-repeat: no-repeat; }
+        .form-container .common-form .form-content .form-section .form-group-long {
+          width: 100% !important; }
+          .form-container .common-form .form-content .form-section .form-group-long select {
+            background-position: 97%; }
       .form-container .common-form .form-content .form-footer {
         padding: 35px 0;
         display: flex;
@@ -357,6 +374,12 @@ footer {
           padding: 15px 35px;
           border-radius: 10px;
           color: white;
+          margin: 0 5px; }
+        .form-container .common-form .form-content .form-footer .price-button {
+          background: #FFE31E;
+          padding: 15px 35px;
+          border-radius: 10px;
+          color: #113268;
           margin: 0 5px; }
 
 /*# sourceMappingURL=main.css.map */

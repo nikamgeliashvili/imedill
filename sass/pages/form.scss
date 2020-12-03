@@ -82,6 +82,18 @@
                 background: #FFE31E;
                 height: 10px;
             }
+
+            .yellow-3{
+                width: 70%;
+                background: #FFE31E;
+                height: 10px;
+            }
+
+            .yellow-4{
+                width: 90%;
+                background: #FFE31E;
+                height: 10px;
+            }
         }
 
         .form-info{
@@ -178,6 +190,15 @@
 
                 }
 
+                .form-group-long{
+                    width:100% !important;
+
+                    select{
+                         background-position: 97%;
+                    }
+                    
+                }
+
                 .form-group{
                     display: flex;
                     flex-direction: column;
@@ -187,6 +208,7 @@
                     .car-price{
                         display: flex;
                         align-items: center;
+                        margin-bottom: 7px;
 
                         img {
                             margin-left: 10px;
@@ -252,6 +274,15 @@
                         background-repeat: no-repeat;
                     }
                 }
+
+                .form-group-long{
+                    width:100% !important;
+
+                    select{
+                         background-position: 97%;
+                    }
+                    
+                }
             }
 
             .form-footer{
@@ -286,6 +317,14 @@
                     color: white;
                     margin: 0 5px;
                     
+                }
+
+                .price-button{
+                    background: #FFE31E;
+                    padding: 15px 35px;
+                    border-radius: 10px;
+                    color: #113268;
+                    margin: 0 5px;
                 }
             }
         }
