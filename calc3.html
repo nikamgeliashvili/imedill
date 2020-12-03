@@ -74,66 +74,104 @@
             <h2>გაიგე პოლისის ფასი</h2>
         </div>
         <div class="colors">
-            <div class="yellow"></div>
+            <div class="yellow-2"></div>
             <div class="grey"></div>
         </div>
 
 
         <div>
-            <h3 class="form-info">სულ რამდენიმე კითხვას დაგისვამთ და შემდეგ თქვენს ავტომობილს საუკეთესო პირობებს მოვარგებთ</h3>
+            <h3 class="form-info">გზის ნახევარი გავლილია. სულ ცოტაც დარჩა
+            </h3>
        </div>
    
        <form action="" class="form-content">
-   
-           <div class="form-section"> 
-   
-               <div class="form-group">
-                   <span>სახელი</span>
-                   <input type="text" class="common-input">
+
+           <div class="form-group form-question">
+            
+            <div class="form-section"> 
+                <div class="form-group">
+                 <div class="car-price">
+                    <span>მანქანის საბაზრო ღირებულება</span>
+                    <a href="#">
+                     <img src="images/info.svg" alt="">
+                    </a>
+                 </div>
+
+                 <div class="car-price-input">
+                    <input type="number" class="common-input" onkeydown="return event.keyCode !== 69 && event.keyCode !== 187 && event.keyCode !== 189" >
+
+                    <select name="" id="">
+                        <option value="">GEL</option>
+                        <option value="">USD</option>
+                        
+                    </select>
+                 </div>
+                  
                </div>
    
                <div class="form-group">
-                   <span>გვარი</span>
-                   <input type="text" class="common-input">
+                   <span>მანქანის სახელმწიფო N</span>
+                    <input type="text" class="common-input">
                </div>
+
            </div>
    
            <div class="form-section"> 
-                <div class="form-group">
-                   <span>ადგილმდებარეობა</span>
-                   <select name="" id="">
-                       <option value="">თბილისი</option>
-                       <option value="">თბილისი</option>
-                       <option value="">თბილისი</option>
-                   </select>
-               </div>
+
    
-               <div class="form-group">
-                   <span>ტელეფონი</span>
-                   <input type="number" class="common-input" onkeydown="return event.keyCode !== 69 && event.keyCode !== 187 && event.keyCode !== 189" >
-               </div>
+               
+                <div class="form-group">
+                    <span>მარკა</span>
+                    <select name="" id="">
+                        <option value="">BMW</option>
+                        <option value="">KIA</option>
+                        <option value="">BMW</option>
+                    </select>
+                </div>
+               
+   
+                <div class="form-group">
+                    <span>მოდელი</span>
+                    <select name="" id="">
+                        <option value="">M3</option>
+                        <option value="">M5</option>
+                        <option value="">M1</option>
+                    </select>
+                </div>
+           </div>
+   
+           <div class="form-section"> 
+            <div class="form-group">
+                <span>გამოშვების წელი</span>
+                <select name="" id="">
+                    <option value="">2016</option>
+                    <option value="">2017</option>
+                    <option value="">2018</option>
+                </select>
+            </div>
+   
+            <div class="form-group">
+                <span>ძრავის მოცულობა</span>
+                <select name="" id="">
+                    <option value="">2.0</option>
+                    <option value="">2.0</option>
+                    <option value="">2.0</option>
+                </select>
+            </div>
+
+            
                
            </div>
    
    
            <div class="form-section">
-            <div class="form-group personal-id">
-                   <div>
-                    <span>დამზღვევის პირადი N</span>
-                    <a href="#">
-                        <img src="images/info.svg" alt="">
-                    </a>
-                   </div>
-                   <input type="number" class="common-input" onkeydown="return event.keyCode !== 69 && event.keyCode !== 187 && event.keyCode !== 189" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
-                   type = "number"
-                   maxlength = "11" >
-               </div>
+              
            </div>
    
    
            <div class="form-footer">
                <div class="form-steps">
-                    <span>1</span>
+                    <span>3</span>
                     <img src="images/Rectangle 78.svg" alt="">
                     <span>4</span>
 

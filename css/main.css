@@ -235,9 +235,8 @@ footer {
       font-size: 16px;
       color: #113268;
       text-align: center;
-      padding: 10px;
-      width: 90%;
-      margin: 0 auto; }
+      margin-top: 20px;
+      width: 90%; }
     .form-container .common-form .form-content {
       margin: 15px 25px; }
       .form-container .common-form .form-content .form-question {
@@ -276,20 +275,36 @@ footer {
           .form-container .common-form .form-content .form-question .question-input .checkmark:after {
             content: "";
             position: absolute; }
-        .form-container .common-form .form-content .form-question img {
-          margin-left: 35px; }
         .form-container .common-form .form-content .form-question span {
           color: #113268;
           font-size: 14px; }
       .form-container .common-form .form-content .form-section {
         display: flex;
-        justify-content: space-between; }
+        justify-content: space-between;
+        align-items: center; }
         .form-container .common-form .form-content .form-section .personal-id {
           width: 100% !important; }
         .form-container .common-form .form-content .form-section .form-group {
           display: flex;
           flex-direction: column;
           width: 48%; }
+          .form-container .common-form .form-content .form-section .form-group .car-price {
+            display: flex;
+            align-items: center; }
+            .form-container .common-form .form-content .form-section .form-group .car-price img {
+              margin-left: 10px; }
+          .form-container .common-form .form-content .form-section .form-group .car-price-input {
+            display: flex; }
+            .form-container .common-form .form-content .form-section .form-group .car-price-input input {
+              width: 70%;
+              border-radius: 10px 0 0 10px; }
+            .form-container .common-form .form-content .form-section .form-group .car-price-input select {
+              width: 35%;
+              height: 43px;
+              margin-top: 5px;
+              border-radius: 0 10px 10px 0;
+              background-position: 70px;
+              background-color: #DFF3FF; }
           .form-container .common-form .form-content .form-section .form-group img {
             margin-left: 35px; }
           .form-container .common-form .form-content .form-section .form-group span {
@@ -317,8 +332,8 @@ footer {
             -webkit-appearance: none;
             -moz-appearance: none;
             appearance: none;
-            background-image: url(../../images/arrow\ select.svg);
-            background-position: 300px;
+            background-image: url(../images/arrow\ select.svg);
+            background-position: 265px;
             background-repeat: no-repeat; }
       .form-container .common-form .form-content .form-footer {
         padding: 35px 0;
