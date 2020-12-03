@@ -302,8 +302,7 @@ footer {
           width: 48%; }
           .form-container .common-form .form-content .form-section .form-group .car-price {
             display: flex;
-            align-items: center;
-            margin-bottom: 7px; }
+            align-items: center; }
             .form-container .common-form .form-content .form-section .form-group .car-price img {
               margin-left: 10px; }
           .form-container .common-form .form-content .form-section .form-group .car-price-input {
@@ -381,5 +380,93 @@ footer {
           border-radius: 10px;
           color: #113268;
           margin: 0 5px; }
+    .form-container .common-form .price-calc-header h2 {
+      font-size: 24px;
+      text-align: center;
+      color: #113268;
+      padding: 40px 0 20px; }
+  .form-container .price-calc-section {
+    width: 80%;
+    padding-bottom: 50px; }
+    .form-container .price-calc-section table {
+      width: 80%;
+      margin: 0 auto 50px;
+      box-shadow: 0 6px 19px rgba(0, 0, 0, 0.1), 0 2px 14px rgba(0, 0, 0, 0.22);
+      border-radius: 7px;
+      overflow: hidden; }
+      .form-container .price-calc-section table tr:not(:last-child) {
+        border-bottom: 1px solid #E8EBF1; }
+      .form-container .price-calc-section table .total {
+        background: #DFF3FF; }
+      .form-container .price-calc-section table th {
+        width: 50%;
+        padding: 17px 40px;
+        background: #DFF3FF;
+        font-size: 16px;
+        color: #073269; }
+        .form-container .price-calc-section table th:nth-child(even) {
+          text-align: center; }
+        .form-container .price-calc-section table th:nth-child(odd) {
+          padding-left: 20px;
+          border-right: 1px solid #E8EBF1; }
+      .form-container .price-calc-section table .details, .form-container .price-calc-section table th {
+        background: white; }
+    .form-container .price-calc-section .terms-checkbox {
+      text-align: center; }
+      .form-container .price-calc-section .terms-checkbox a {
+        text-decoration: underline !important;
+        color: #073269; }
+    .form-container .price-calc-section .price-calc-form {
+      position: relative; }
+      .form-container .price-calc-section .price-calc-form .terms-checkbox {
+        text-align: center;
+        position: unset; }
+        .form-container .price-calc-section .price-calc-form .terms-checkbox .checkmark {
+          top: 0;
+          left: 315px;
+          border-radius: 5px; }
+      .form-container .price-calc-section .price-calc-form .question-input input:checked ~ .checkmark {
+        background-color: #9A9A9A;
+        border: 2px solid #9A9A9A; }
+    .form-container .price-calc-section .button-box {
+      text-align: center;
+      margin-top: 40px; }
+      .form-container .price-calc-section .button-box .policy-button {
+        background: #113268;
+        color: white;
+        font-size: 14px;
+        padding: 15px 50px;
+        border-radius: 10px; }
+
+.question-input {
+  position: absolute; }
+  .question-input .cart_button {
+    margin-left: 35px; }
+  .question-input input {
+    width: 20px;
+    height: 20px;
+    margin-right: 30px; }
+  .question-input input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer; }
+  .question-input input:checked ~ .checkmark {
+    background-color: #113268;
+    border: 2px solid #113268;
+    padding: 3px;
+    background-clip: content-box; }
+  .question-input .checkmark {
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%; }
+  .question-input .checkmark:after {
+    display: block; }
+  .question-input .checkmark:after {
+    content: "";
+    position: absolute; }
 
 /*# sourceMappingURL=main.css.map */
