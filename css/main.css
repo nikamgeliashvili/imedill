@@ -301,6 +301,8 @@ footer {
           display: flex;
           flex-direction: column;
           width: 48%; }
+          .form-container .common-form .form-content .form-section .form-group .l-price {
+            margin-bottom: 5px; }
           .form-container .common-form .form-content .form-section .form-group .car-price {
             display: flex;
             align-items: center; }
