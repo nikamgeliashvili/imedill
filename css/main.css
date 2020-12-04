@@ -148,7 +148,8 @@ header {
     margin: 20px;
     display: flex;
     align-items: center;
-    flex: 40%; }
+    flex: 40%;
+    color: #113268; }
     .main-container .terms-section .terms span {
       margin-left: 15px; }
 
