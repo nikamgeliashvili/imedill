@@ -52,130 +52,56 @@
     
     <div class="form-header">
         <div class="main-title">
-            <h1>პოლისის ფასის კალკულატორი</h1>
+            <h1>პოლისის ღირებულების გადახდა</h1>
         </div>
 
         <div>
             <ul class="breadcrumb">
                 <li><a href="#">მთავარი</a></li>
                 <li><a href="#">ავტომობილის დაზღვევა</a></li>
-                <li><a href="#"> პოლისის ფასის კალკულატორი</a></li>
+                <li><a href="#">პოლისის ღირებულების გადახდა</a></li>
                
             </ul>
 
         </div>
     </div>
 
-    <div class="common-form">
+    <div class="common-form payment-form">
         
        
 
-        <div class="common-form-header">
+        <div class="common-form-header next-payment-header">
             <h2>გაიგე პოლისის ფასი</h2>
         </div>
-        <div class="colors">
-            <div class="yellow-2"></div>
-            <div class="grey"></div>
-        </div>
-
-
-        <div>
-            <h3 class="form-info">კარგი დასაწყისია, ბევრ დროს არ წაგართმევთ</h3>
-       </div>
+    
    
        <form action="" class="form-content">
-
-           <div class="form-group form-question">
-            
-            <div class="main-question">
-                    <span>ხარ თუ არა ავტომობილის მესაკუთრე?</span>
-                    <a href="#">
-                        <img src="images/info.svg" alt="">
-                    </a>
-                    
-            </div>
-
-            <div class="question-input">
-                <label class="cart_button">
-                    <input type="radio" name="payment" checked="">
-                    <span class="checkmark"></span>
-                    <span>კი</span>
-                </label>
-
-         
-            </div>
-
-            <div class="question-input  question-input-2 ">
-                <label class="cart_button">
-                    <input type="radio" name="payment" checked="">
-                    <span class="checkmark"></span>
-                    <span>არა</span>
-                </label>
-            </div>
-
-
-                      
-           </div>
    
-           <div class="form-section"> 
-
-   
-               <div class="form-group">
-                   <span>მესაკუთრის სახელი</span>
-                   <input type="text" class="common-input">
-               </div>
-   
-               <div class="form-group">
-                   <span>მესაკუთრის გვარი</span>
-                   <input type="text" class="common-input">
-               </div>
-           </div>
-   
-           <div class="form-section"> 
-               <div class="form-group ">
-                   <span>მანქანის მესაკუთრის პირადი N</span>
-                   <input type="number" class="common-input" onkeydown="return event.keyCode !== 69 && event.keyCode !== 187 && event.keyCode !== 189" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
-                   type = "number"
-                   maxlength = "11" >
-               </div>
-   
-               <div class="form-group">
-                   <span>მესაკუთრის დაბადების თარიღი</span>
-                   <input type="date" class="common-input">
-               </div>
-
-           </div>
+           
    
    
            <div class="form-section">
-              
+                <div class="form-group  payment-info ">
+                    
+                        <span>პირადი ნომერი: კვარტალური</span>
+                        <span>გადახდის თარიღი: 15/11/20 </span>
+                        <span>გადაიხადე პრემია: 50 ₾</span>
+                
+                </div>
            </div>
    
    
            <div class="form-footer">
-               <div class="form-steps">
-                    <span>2</span>
-                    <img src="images/Rectangle 78.svg" alt="">
-                    <span>4</span>
-
-               </div>
-   
-   
-               <div>
-                   <a href="#" class="back-button">უკან</a>
-                   <a href="#" class="next-button">შემდეგი</a>
-               </div>
+                
+                   <button class="pay-button-red">გადახდა</button>      
            </div>
        </form>
 
 
     </div>
 
-   
-
 
 </div>
-
 
 
 	<footer>

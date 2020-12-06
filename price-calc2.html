@@ -66,110 +66,97 @@
         </div>
     </div>
 
-    <div class="common-form">
+    <div class="common-form price-calc-section">
         
        
 
-        <div class="common-form-header">
-            <h2>გაიგე პოლისის ფასი</h2>
+        <div class="price-calc-header">
+            <h2>პოლისის ღირებულება და დეტალები</h2>
         </div>
-        <div class="colors">
-            <div class="yellow-2"></div>
-            <div class="grey"></div>
-        </div>
+       
+        
 
+        <table>
+            <tr >
+              <th class="total">ჯამური სადაზღვევო პრემია </th>
+              <th class="total">500</th>
+            </tr>
 
-        <div>
-            <h3 class="form-info">კარგი დასაწყისია, ბევრ დროს არ წაგართმევთ</h3>
-       </div>
-   
-       <form action="" class="form-content">
+            <tr>
+                <th>კასკოს პრემია</th>
+                <th>100</th>
+              </tr>
 
-           <div class="form-group form-question">
+              <tr>
+                <th>MTPL პრემია</th>
+                <th>200</th>
+              </tr>
+
+              <tr>
+                <th>MPA პრემია</th>
+                <th>200</th>
+              </tr>
+
+              <tr>
+                <th>ფრანშიზა</th>
+                <th>0</th>
+              </tr>
             
-            <div class="main-question">
-                    <span>ხარ თუ არა ავტომობილის მესაკუთრე?</span>
-                    <a href="#">
-                        <img src="images/info.svg" alt="">
-                    </a>
-                    
-            </div>
+        </table>
 
-            <div class="question-input">
+        <table>
+            <tr >
+              <th >გადახდის ჯერადობა: </th>
+              <th >კვარტალური</th>
+            </tr>
+
+            <tr>
+                <th>გადახდის თარიღი:  </th>
+                <th>15/11/2020</th>
+              </tr>
+
+              <tr>
+                <th>I გადახდა </th>
+                <th>50 ₾</th>
+              </tr>
+
+              <tr>
+                <th>II გადახდა </th>
+                <th>30 ₾</th>
+              </tr>
+
+              <tr>
+                <th>III გადახდა </th>
+                <th>30 ₾</th>
+              </tr>
+
+              <tr>
+                <th>IV გადახდა </th>
+                <th>30 ₾</th>
+              </tr>
+
+        </table>
+
+        <form action="" class="price-calc-form">
+            <div class="terms-checkbox question-input ">
                 <label class="cart_button">
-                    <input type="radio" name="payment" checked="">
+                    <input type="radio" name="payment" >
                     <span class="checkmark"></span>
-                    <span>კი</span>
+                    <span>გავეცანი და ვეთანხმები <a href="#">წესებს და პირობებს</a></span>
+                    
                 </label>
-
          
             </div>
 
-            <div class="question-input  question-input-2 ">
-                <label class="cart_button">
-                    <input type="radio" name="payment" checked="">
-                    <span class="checkmark"></span>
-                    <span>არა</span>
-                </label>
-            </div>
+        </form>
 
-
-                      
-           </div>
-   
-           <div class="form-section"> 
-
-   
-               <div class="form-group">
-                   <span>მესაკუთრის სახელი</span>
-                   <input type="text" class="common-input">
-               </div>
-   
-               <div class="form-group">
-                   <span>მესაკუთრის გვარი</span>
-                   <input type="text" class="common-input">
-               </div>
-           </div>
-   
-           <div class="form-section"> 
-               <div class="form-group ">
-                   <span>მანქანის მესაკუთრის პირადი N</span>
-                   <input type="number" class="common-input" onkeydown="return event.keyCode !== 69 && event.keyCode !== 187 && event.keyCode !== 189" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
-                   type = "number"
-                   maxlength = "11" >
-               </div>
-   
-               <div class="form-group">
-                   <span>მესაკუთრის დაბადების თარიღი</span>
-                   <input type="date" class="common-input">
-               </div>
-
-           </div>
-   
-   
-           <div class="form-section">
-              
-           </div>
-   
-   
-           <div class="form-footer">
-               <div class="form-steps">
-                    <span>2</span>
-                    <img src="images/Rectangle 78.svg" alt="">
-                    <span>4</span>
-
-               </div>
-   
-   
-               <div>
-                   <a href="#" class="back-button">უკან</a>
-                   <a href="#" class="next-button">შემდეგი</a>
-               </div>
-           </div>
-       </form>
-
-
+        <div class="button-box">
+            <a href="#" target="_blank"  class="policy-button disable">პოლისის შეძენა</a>
+        </div>
+        
     </div>
+
+
 
    
 

@@ -66,10 +66,8 @@
         </div>
     </div>
 
-    <div class="common-form">
+    <div class="common-form componetnt-container">
         
-       
-
         <div class="common-form-header">
             <h2>გაიგე პოლისის ფასი</h2>
         </div>
@@ -80,11 +78,12 @@
 
 
         <div>
-            <h3 class="form-info">კარგი დასაწყისია, ბევრ დროს არ წაგართმევთ</h3>
+            <h3 class="   ">გზის ნახევარი გავლილია. სულ ცოტაც დარჩა
+            </h3>
        </div>
    
        <form action="" class="form-content">
-
+  
            <div class="form-group form-question">
             
             <div class="main-question">
@@ -111,7 +110,7 @@
                     <span class="checkmark"></span>
                     <span>არა</span>
                 </label>
-            </div>
+            </div>   
 
 
                       
@@ -148,24 +147,49 @@
    
    
            <div class="form-section">
+            <div class="form-group">
+                <span>მარკა</span>
+                <select name="" id="">
+                    <option value="">BMW</option>
+                    <option value="">KIA</option>
+                    <option value="">BMW</option>
+                </select>
+            </div>
+           </div>
+
+           <div class="form-section"> 
+            <div class="form-group">
+             <div class="car-price">
+                <span>მანქანის საბაზრო ღირებულება</span>
+                <a href="#">
+                 <img src="images/info.svg" alt="">
+                </a>
+             </div>
+
+             <div class="car-price-input">
+                <input type="number" class="common-input" onkeydown="return event.keyCode !== 69 && event.keyCode !== 187 && event.keyCode !== 189" >
+
+                <select name="" id="">
+                    <option value="">GEL</option>
+                    <option value="">USD</option>
+                    
+                </select>
+             </div>
               
            </div>
-   
-   
-           <div class="form-footer">
-               <div class="form-steps">
-                    <span>2</span>
-                    <img src="images/Rectangle 78.svg" alt="">
-                    <span>4</span>
 
-               </div>
+       </div>
+
+           
    
-   
+<!--    
+           <div class="form-footer">
+            
                <div>
                    <a href="#" class="back-button">უკან</a>
                    <a href="#" class="next-button">შემდეგი</a>
                </div>
-           </div>
+           </div> -->
        </form>
 
 

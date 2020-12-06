@@ -6,9 +6,16 @@
 	font-style: normal;
 }
 
-body{
+@font-face{
+    font-family: Imedi FLT;
+    src: url('../../fonts/Imedi\ FLT.otf ');
+}
 
-    font-family: 'Conv_bpg_mrgvlovani_caps_2010';
+body{
+    font-family: Imedi FLT;
+    
+
+    
     a{
         text-decoration:none !important;
     }
@@ -265,6 +272,8 @@ footer{
     display: flex;
     justify-content: space-between;
     color: white;
+    font-family: 'Conv_bpg_mrgvlovani_caps_2010';
+    margin-top: 100px;
 
     .footer-content{
         display: flex;
