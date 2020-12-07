@@ -8,6 +8,8 @@
     background-size: 110%;
     background-position: 260px -510px;
     background-repeat: no-repeat;
+    padding-bottom: 100px;
+
 
 
     
@@ -28,6 +30,8 @@
             font-size: 14px;
             background:transparent;
             justify-content: center;
+            padding: 0;
+            margin: 0;
     
             li{
                 padding-right: 8px;
@@ -48,7 +52,7 @@
     
 
     .common-form{
-        width: 50%;
+        width: 55%;
         margin: 0 auto;
         background: white;
         border-radius: 15px;
@@ -303,6 +307,8 @@
                     span{
                         color: #113268;
                         font-size: 14px;
+                     
+
                     }
 
                     .common-input{
@@ -344,6 +350,10 @@
                     span{
                         padding: 6px;
                         font-size: 20px;
+                    }
+
+                    .payment-date{
+                        border: 2px solid #DEF0FE;
                     }
 
                     p{
@@ -531,6 +541,7 @@
                 background: #DFF3FF;
                 font-size: 16px;
                 color: #073269;
+                
                
 
                 &:nth-child(even) {
@@ -680,7 +691,7 @@
 @media only screen and (max-width: 991px){
 
     .form-container{
-        margin-bottom: 30px;
+        padding-bottom: 50px;
 
         .form-header{
             padding: 20px 0;
@@ -747,6 +758,8 @@
                             font-size: 14px;
                             padding: 6px 0;
                         }
+
+                       
                     }
 
                 }

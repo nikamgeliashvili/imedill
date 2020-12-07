@@ -40,7 +40,7 @@ body{
 }
 
 .reverse{
-    padding: 80px 80px 0 !important;
+    padding: 0 80px 0 !important;
     position: relative;
     top: 15px;
 
@@ -202,6 +202,7 @@ header{
 .title{
    font-size: 40px;
    color: #073269; 
+   letter-spacing: 2px;
 }
 
 button{
@@ -234,19 +235,11 @@ button{
               
                 a, button{
                     font-size: 24px;
-                    color: #F98C90;
-                    border: 1px solid #F98C90;
+                    color: #6CB5E4;
                     padding: 19px;
                     border-radius: 10px;
-                    transition:.4s;
                     outline: none;
-
-                    &:hover{
-                        background:#F98C90;
-                        color: white;
-                    }
-
-
+                    background: #F7EA84 !important;
                 }
 
                 button{
@@ -288,24 +281,14 @@ button{
         }
 
         .pay{
-           
 
             a, button{
                 font-size: 24px;
-                color: #F98C90;
-                border: 1px solid #F98C90;
+                background:#F98C90;
+                color: white;
                 padding: 19px 127px;
                 border-radius: 10px;
-                transition:.4s;
                 margin-left: 15px;
-
-                &:hover{
-                    background:#F98C90;
-                    color: white;
-                }
-                
-
-
             }
         }
 
@@ -315,7 +298,7 @@ button{
     .content-container{
         display: flex;
         align-items: center;
-        padding: 80px;
+        padding: 70px;
 
         .content-image{
             width: 100%;
@@ -365,19 +348,18 @@ button{
                     border-radius: 10px;
                     transition:.4s;
                     outline: none;
-    
-                    &:hover{
-                        background:#6CB5E4;
-                        color: white;
-                    }
-                    
-    
-    
+                    background:#6CB5E4;
+                    color: white;
                 }
             }
         }
 
     }
+
+    .content-box{
+        padding-bottom: 10px;
+    }
+
 
     .terms-section{
         padding: 60px;
