@@ -8,6 +8,9 @@
     background-size: 110%;
     background-position: 260px -510px;
     background-repeat: no-repeat;
+
+
+    
   
     
     .form-header{
@@ -68,9 +71,9 @@
             background-image: url(../images/mask\ header.svg), url(../images/Rectangle\ 22.svg);
             padding: 22px 0;
             background-repeat: no-repeat;
-            background-size: 100%;
             background-position: center;
             border-radius: 10px 10px 0 0;
+            background-size: 100%;
 
 
             h2{
@@ -127,6 +130,39 @@
 
         .form-content{
             margin: 15px 25px;
+
+
+            .input-info-box{
+                font-size: 14px;
+                background: #DFF3FF;
+                padding: 15px 35px 15px 15px;
+                border: 1px solid #A3D1EF;
+                border-radius: 7px;
+                font-family: 'Conv_bpg_mrgvlovani_caps_2010';
+                position: relative;
+                margin: 15px 0;
+
+                img{
+                    position: absolute;
+                    top: 7px;
+                    right: 7px;
+                    cursor: pointer;
+                }
+
+                .arrow{
+                    width: 15px;
+                    height: 15px;
+                    background: red;
+                    margin: 0 auto;
+                    transform: rotate(45deg);
+                    position: absolute;
+                    bottom: -8px;
+                    left: 290px;
+                    background: #DFF3FF;
+                    border-bottom: 1px solid #6CB5E4;
+                    border-right: 1px solid #6CB5E4;
+                }
+            }
 
             .form-question{
 
@@ -253,7 +289,7 @@
                             width: 35%;
                             height: 43px;
                             margin-top: 5px;
-                            border-radius: 0 10px 10px 0;
+                            border-radius: 0 7px 7px 0;
                             background-position: 70px;
                             background-color: #DFF3FF;
                         }
@@ -308,6 +344,12 @@
                     span{
                         padding: 6px;
                         font-size: 20px;
+                    }
+
+                    p{
+                        font-size: 16px;
+                        font-family: 'Conv_bpg_mrgvlovani_caps_2010';
+
                     }
                 }
 
@@ -390,6 +432,7 @@
                     border: unset;
                     border-radius: 7px;
                     color: white;
+                    cursor: pointer;
                 }
 
                 .pay-button-red{
@@ -400,6 +443,7 @@
                     border: unset;
                     border-radius: 7px;
                     color: white;
+                    cursor: pointer;
               
                 }
 
@@ -409,6 +453,7 @@
                     border-radius: 10px;
                     color: #113268;
                     margin: 0 5px;
+                    cursor: pointer;
                 }
             }
 
@@ -508,7 +553,9 @@
         }
 
         .terms-checkbox{
+            font-family: 'Conv_bpg_mrgvlovani_caps_2010';
             text-align: center;
+            padding: 10px;
 
             a{
                 text-decoration: underline !important;
@@ -570,6 +617,12 @@
 
 }
 
+.pop-up-form{
+    background: unset;
+    width: 100%;
+
+}
+
 
 
 .question-input{
@@ -621,4 +674,125 @@
     }
 
    
+}
+
+
+@media only screen and (max-width: 991px){
+
+    .form-container{
+        margin-bottom: 30px;
+
+        .form-header{
+            padding: 20px 0;
+
+            .breadcrumb {
+                  display: none;
+            }
+
+            .main-title{
+                h1{
+                    font-size: 20px;
+                    padding: 15px;
+                }
+            }
+                
+        }
+
+        .common-form {
+            width: 90%;
+
+            .terms-header{
+
+                h2{
+                    font-size: 20px;
+                }
+            }
+
+
+            .common-form-header{
+                background-size: cover;
+
+                h2{
+                    font-size: 20px;
+                }
+
+                
+            }
+
+            .form-info{
+                width: 100%;
+                width: 100%;
+                padding: 5px;
+                font-size: 14px;
+            }
+
+            .form-content{
+                margin: 15px;
+                
+                .form-section{
+                    flex-direction: column;
+
+                    .form-group{
+                        width: 100%;
+
+
+                        select{
+                            background-image: unset;
+                        }
+                    }
+
+                    .payment-info{
+
+                        span{
+                            font-size: 14px;
+                            padding: 6px 0;
+                        }
+                    }
+
+                }
+
+            }
+        }
+
+        .price-calc-section{
+            width: 100%;
+
+            .price-calc-header{
+                h2{
+                    font-size: 20px;
+                    padding: 20px 5px;
+                }
+            }
+
+            table{
+                width: 90%;
+
+                th{
+                    font-size: 14px;
+                    padding: 10px 0;
+
+                }
+            }
+        }
+
+        .form-footer{
+            padding: 10px 0 50px !important;
+            a{
+                font-size: 14px;
+                padding: 15px !important;
+            }
+
+            .pay-button{
+                width: 100% !important;
+            }
+
+            .pay-button-red{
+                width: 100% !important;
+
+            }
+
+
+            
+        }
+    }
 }
