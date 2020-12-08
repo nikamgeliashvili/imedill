@@ -208,7 +208,7 @@ header{
 .title{
    font-size: 40px;
    color: #073269; 
-   letter-spacing: 2px;
+   word-spacing: 13px;
 }
 
 button{
@@ -348,6 +348,7 @@ button{
     
             .see-more{
                 margin-top: 50px;
+                position: relative;
 
 
                 .active{
@@ -364,20 +365,7 @@ button{
                     transition:.4s;
                     outline: none;
                     margin-bottom: 20px;
-                  
-
-                    img{
-                        padding-bottom: 4px;
-                        padding-left: 5px;
-                    }
-
-                    .rotate{
-                        transform: rotate(180deg);
-                        padding: 7px 5px 0 0px;
-                    }
-                    
-                  
-
+                
                     &:hover{
                         background-color:#6CB5E4;
                         color: white;
@@ -386,6 +374,20 @@ button{
                     }
                     
                 }
+
+                img{
+               
+                    position: absolute;
+                    top: 34px;
+                    left: 154px;
+                }
+
+                .rotate{
+                    transform: rotate(180deg);
+                    padding: 7px 5px 0 0px;
+                    left: 166px;
+                }
+                
 
 
             }

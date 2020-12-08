@@ -6,7 +6,7 @@ $(window).on("load",function(){
 
   $(".see-more").on("click", function () {
     $(this)
-      .find($("button img"))
+      .find($(".see-more img"))
       .toggleClass("rotate");
   });
 
@@ -81,6 +81,14 @@ $(".tooltip_close").click(function(e){
 
  });
 
+
+ 
+        $(".open").click(function () {
+            $(this).text(function(i, v){
+               return v === 'ნაკლები' ? 'ვრცლად' : 'ნაკლები'
+            })
+        });
+   
 
          
 
