@@ -549,7 +549,8 @@ footer {
             display: flex;
             align-items: center; }
             .form-container .common-form .form-content .form-section .form-group .car-price img {
-              margin-left: 10px; }
+              margin-left: 10px;
+              margin-bottom: 3px; }
           .form-container .common-form .form-content .form-section .form-group .car-price-input {
             display: flex; }
             .form-container .common-form .form-content .form-section .form-group .car-price-input input {
@@ -560,8 +561,9 @@ footer {
               height: 43px;
               margin-top: 5px;
               border-radius: 0 7px 7px 0;
-              background-position: 70px;
-              background-color: #DFF3FF; }
+              background-position: 78px;
+              background-color: #DFF3FF;
+              background-position-y: 18px; }
           .form-container .common-form .form-content .form-section .form-group img {
             margin-left: 35px; }
           .form-container .common-form .form-content .form-section .form-group span {
@@ -750,7 +752,8 @@ footer {
         color: white;
         font-size: 14px;
         padding: 15px 50px;
-        border-radius: 10px; }
+        border-radius: 10px;
+        font-family: Imedi FLT; }
       .form-container .price-calc-section .button-box .disable {
         pointer-events: none;
         opacity: .4; }
@@ -817,10 +820,12 @@ footer {
         margin: 15px; }
         .form-container .common-form .form-content .form-section {
           flex-direction: column; }
+          .form-container .common-form .form-content .form-section .form-group-long {
+            background-position: 92%; }
           .form-container .common-form .form-content .form-section .form-group {
             width: 100%; }
-            .form-container .common-form .form-content .form-section .form-group select {
-              background-image: unset; }
+            .form-container .common-form .form-content .form-section .form-group .car-price-input {
+              background-position: 85%; }
           .form-container .common-form .form-content .form-section .payment-info span {
             font-size: 14px;
             padding: 6px 0; }
@@ -855,7 +860,14 @@ footer {
         .form-container .form-footer .button-box .back-button {
           margin: 10px 0 !important; }
         .form-container .form-footer .button-box .price-button {
-          margin: 10px 0 !important; } }
+          margin: 10px 0 !important; }
+
+  .form-container .common-form .form-content .form-section .form-group-long select {
+    background-position: 92%; }
+
+  .form-container .common-form .form-content .form-section .form-group .car-price-input select {
+    background-position: 80%;
+    background-position-y: 18px; } }
 @media only screen and (max-width: 768px) {
   .form-container .form-footer {
     flex-direction: column; } }
