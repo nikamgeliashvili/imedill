@@ -214,6 +214,9 @@ button {
       font-family: 'Conv_bpg_mrgvlovani_caps_2010'; }
     .main-container .content-container .content .see-more {
       margin-top: 50px; }
+      .main-container .content-container .content .see-more .active {
+        background-color: #6CB5E4;
+        color: white; }
       .main-container .content-container .content .see-more a, .main-container .content-container .content .see-more button {
         font-size: 24px;
         color: #073269;
@@ -222,8 +225,16 @@ button {
         border-radius: 10px;
         transition: .4s;
         outline: none;
-        background: #6CB5E4;
-        color: white; }
+        margin-bottom: 20px; }
+        .main-container .content-container .content .see-more a img, .main-container .content-container .content .see-more button img {
+          padding-bottom: 4px;
+          padding-left: 5px; }
+        .main-container .content-container .content .see-more a .rotate, .main-container .content-container .content .see-more button .rotate {
+          transform: rotate(180deg);
+          padding: 7px 5px 0 0px; }
+        .main-container .content-container .content .see-more a:hover, .main-container .content-container .content .see-more button:hover {
+          background-color: #6CB5E4;
+          color: white; }
 .main-container .content-box {
   padding-bottom: 10px; }
 .main-container .terms-section {

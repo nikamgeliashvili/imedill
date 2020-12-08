@@ -240,6 +240,8 @@ button{
                     border-radius: 10px;
                     outline: none;
                     background: #F7EA84 !important;
+
+                  
                 }
 
                 button{
@@ -324,6 +326,7 @@ button{
         .content{
             padding: 15px;
             width: 100%;
+            
 
             .textbox{
                 max-height: 90px;
@@ -339,6 +342,12 @@ button{
     
             .see-more{
                 margin-top: 50px;
+
+
+                .active{
+                    background-color:#6CB5E4;
+                    color: white;
+                }
               
                 a, button{
                     font-size: 24px;
@@ -348,9 +357,31 @@ button{
                     border-radius: 10px;
                     transition:.4s;
                     outline: none;
-                    background:#6CB5E4;
-                    color: white;
+                    margin-bottom: 20px;
+                  
+
+                    img{
+                        padding-bottom: 4px;
+                        padding-left: 5px;
+                    }
+
+                    .rotate{
+                        transform: rotate(180deg);
+                        padding: 7px 5px 0 0px;
+                    }
+                    
+                  
+
+                    &:hover{
+                        background-color:#6CB5E4;
+                        color: white;
+                        
+                        
+                    }
+                    
                 }
+
+
             }
         }
 
