@@ -839,5 +839,8 @@ footer {
         width: 100% !important; }
       .form-container .form-footer .pay-button-red {
         width: 100% !important; } }
+@media only screen and (max-width: 768px) {
+  .form-container .form-footer {
+    flex-direction: column; } }
 
 /*# sourceMappingURL=main.css.map */

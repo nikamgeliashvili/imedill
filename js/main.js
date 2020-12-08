@@ -23,13 +23,47 @@ $(window).on("load",function(){
 
  $(function()
  {
-   $('[name="payment"]').change(function()
+   $('.form_accept').click(function()
    {
      if ($(this).is(':checked')) {
        
-        // alert('Yosdsds');
-     };
+        $(".policy-button").removeClass("disable")
+     }else {
+        $(".policy-button").addClass("disable")
+     }
    });
+
+
+
+   $('.car_acc1').click(function(){
+     
+     if ($(this).is(':checked')) {
+       
+        $(".form_textarea").show()
+     }
+   });
+
+   $('.car_acc2').click(function(){
+  
+    if ($(this).is(':checked')) {
+        
+        $(".form_textarea").hide()
+    }
+});
+
+$(".car-price a").click(function(e){
+    e.preventDefault()
+
+    $(this).parent().prev().show()
+    $(this).addClass("active")
+})
+$(".tooltip_close").click(function(e){
+
+
+    $(this).parent().hide()
+    $(this).parent().next().find("a").removeClass("active")
+})
+
  });
 
 

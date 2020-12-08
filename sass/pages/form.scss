@@ -816,5 +816,12 @@
     }
 }
 
+@media only screen and (max-width: 768px){
+    .form-container .form-footer {
+        flex-direction: column;
+    }
+}
+
+
 
 
