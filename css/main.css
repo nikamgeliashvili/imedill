@@ -55,12 +55,16 @@ body {
   display: none; }
 
 .success-image {
-  margin-bottom: 20px; }
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  border: 1px solid;
+  padding: 15px;
+  border: 1px solid #6CB5E4; }
   .success-image img {
-    border: 1px solid #6CB5E4;
-    border-radius: 50%;
-    padding: 20px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    margin-left: unset !important;
+    width: 60px;
+    height: 60px; }
 
 header {
   background: #6BB5E4; }
@@ -397,8 +401,9 @@ footer {
         .form-container .form-header .breadcrumb li a {
           color: #113268; }
       .form-container .form-header .breadcrumb li + li:before {
-        color: #3e9578;
-        content: "/\00a0"; }
+        color: #113268;
+        padding-right: 5px;
+        content: "/"; }
   .form-container .common-form {
     width: 55%;
     margin: 0 auto;
@@ -510,7 +515,8 @@ footer {
             height: 20px;
             width: 20px;
             background-color: #eee;
-            border-radius: 50%; }
+            border-radius: 50%;
+            border: 2px solid #113268; }
           .form-container .common-form .form-content .form-question .question-input .checkmark:after {
             display: block; }
           .form-container .common-form .form-content .form-question .question-input .checkmark:after {

@@ -4,12 +4,6 @@ $(window).on("load",function(){
 });
 
 
-
-// $(".see-more").click(function(){
-//     $("img").toggleClass("rotate");
-//   });
-
-
   $(".see-more").on("click", function () {
     $(this)
       .find($("button img"))
@@ -22,14 +16,20 @@ $(window).on("load",function(){
       .toggleClass("active");
   });
 
-
-
-
-  
-
-
  $(".see-more").click(function(){
     $(this).prev().toggleClass('textbox');
+ });
+
+
+ $(function()
+ {
+   $('[name="payment"]').change(function()
+   {
+     if ($(this).is(':checked')) {
+       
+        // alert('Yosdsds');
+     };
+   });
  });
 
 
