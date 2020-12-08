@@ -359,7 +359,7 @@ footer {
     .main-container .content-container .content {
       margin-top: 30px; }
       .main-container .content-container .content .see-more button {
-        width: 90%;
+        width: 100%;
         font-size: 18px; }
       .main-container .content-container .content .see-more img {
         display: none; }
@@ -834,7 +834,8 @@ footer {
             font-size: 14px;
             padding: 6px 0; }
     .form-container .price-calc-section {
-      width: 100%; }
+      width: 100%;
+      padding-top: 30px; }
       .form-container .price-calc-section .price-calc-header h2 {
         font-size: 20px;
         padding: 20px 5px; }
