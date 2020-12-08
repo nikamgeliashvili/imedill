@@ -57,6 +57,21 @@ $(".car-price a").click(function(e){
     $(this).parent().prev().show()
     $(this).addClass("active")
 })
+
+$(".personal-id img").click(function(e){
+  e.preventDefault()
+
+  $(this).parent().prev().show()
+  $(this).addClass("active")
+})
+
+$(".input-info-box img").click(function(e){
+  e.preventDefault()
+
+  $(this).parent().prev().show()
+  $(this).addClass("active")
+})
+
 $(".tooltip_close").click(function(e){
 
 

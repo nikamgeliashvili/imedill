@@ -834,7 +834,8 @@ footer {
           font-size: 14px;
           padding: 10px 0; }
     .form-container .form-footer {
-      padding: 10px 0 50px !important; }
+      padding: 10px 0 50px !important;
+      flex-direction: column; }
       .form-container .form-footer a {
         font-size: 14px;
         padding: 15px !important; }
