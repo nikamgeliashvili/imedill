@@ -53,7 +53,7 @@
     
 
     .common-form{
-        width: 55%;
+        max-width: 800px;
         margin: 0 auto;
         background: white;
         border-radius: 15px;
@@ -146,6 +146,7 @@
                 font-family: 'Conv_bpg_mrgvlovani_caps_2010';
                 position: relative;
                 margin: 15px 0;
+                display: none;
 
                 img{
                     position: absolute;
@@ -776,11 +777,17 @@
         .price-calc-section{
             width: 100%;
 
+            
+
             .price-calc-header{
                 h2{
                     font-size: 20px;
                     padding: 20px 5px;
                 }
+            }
+
+            .price-details{
+                display: none;
             }
 
             table{
@@ -811,6 +818,26 @@
             }
 
 
+            .button-box{
+                margin-top: 15px;
+                width: 100%;
+                text-align: center;
+
+                button{
+                    width: 100%;
+                }
+
+
+                .back-button{
+                    margin: 10px 0 !important;
+                }
+
+                .price-button {
+                    margin: 10px 0 !important;
+                }
+            }
+
+
             
         }
     }
@@ -819,6 +846,8 @@
 @media only screen and (max-width: 768px){
     .form-container .form-footer {
         flex-direction: column;
+
+    
     }
 }
 

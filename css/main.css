@@ -13,7 +13,7 @@ body {
   body a {
     text-decoration: none !important; }
 
-.loader {
+.loader, .loader-def {
   background: white;
   z-index: 999;
   width: 100%;
@@ -405,7 +405,7 @@ footer {
         padding-right: 5px;
         content: "/"; }
   .form-container .common-form {
-    width: 55%;
+    max-width: 800px;
     margin: 0 auto;
     background: white;
     border-radius: 15px;
@@ -467,7 +467,8 @@ footer {
         border-radius: 7px;
         font-family: 'Conv_bpg_mrgvlovani_caps_2010';
         position: relative;
-        margin: 15px 0; }
+        margin: 15px 0;
+        display: none; }
         .form-container .common-form .form-content .input-info-box img {
           position: absolute;
           top: 7px;
@@ -825,6 +826,8 @@ footer {
       .form-container .price-calc-section .price-calc-header h2 {
         font-size: 20px;
         padding: 20px 5px; }
+      .form-container .price-calc-section .price-details {
+        display: none; }
       .form-container .price-calc-section table {
         width: 90%; }
         .form-container .price-calc-section table th {
@@ -838,7 +841,17 @@ footer {
       .form-container .form-footer .pay-button {
         width: 100% !important; }
       .form-container .form-footer .pay-button-red {
-        width: 100% !important; } }
+        width: 100% !important; }
+      .form-container .form-footer .button-box {
+        margin-top: 15px;
+        width: 100%;
+        text-align: center; }
+        .form-container .form-footer .button-box button {
+          width: 100%; }
+        .form-container .form-footer .button-box .back-button {
+          margin: 10px 0 !important; }
+        .form-container .form-footer .button-box .price-button {
+          margin: 10px 0 !important; } }
 @media only screen and (max-width: 768px) {
   .form-container .form-footer {
     flex-direction: column; } }
