@@ -83,11 +83,26 @@ $(".tooltip_close").click(function(e){
 
 
  
-        $(".open").click(function () {
-            $(this).text(function(i, v){
-               return v === 'ნაკლები' ? 'ვრცლად' : 'ნაკლები'
-            })
-        });
+        // $(".open").click(function () {
+        //     $(this).text(function(i, v){
+        //        return v === 'ნაკლები' ? 'ვრცლად' : 'ნაკლები'
+        //     })
+        // });
+
+
+        $(".open").click(function(){
+          if($(this).text() === "ნაკლები"){
+            $(this).text("ვრცლად");
+          } else{
+          $(this).text("ნაკლები")
+          
+          }
+          })
+
+        
+
+
+     
    
 
          
