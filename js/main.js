@@ -90,14 +90,21 @@ $(".tooltip_close").click(function(e){
         // });
 
 
-        $(".open").click(function(){
-          if($(this).text() === "ნაკლები"){
-            $(this).text("ვრცლად");
-          } else{
-          $(this).text("ნაკლები")
+        // $(".open").click(function(){
+        //   if($(this).text() === "ნაკლები"){
+        //     $(this).text("ვრცლად");
+        //   } else{
+        //   $(this).text("ნაკლები")
           
-          }
-          })
+        //   }
+        //   })
+
+
+          $(".more").on("click", function () {
+            $(this)
+              .find($("span"))
+              .toggleClass("button-hide");
+          });
 
         
 

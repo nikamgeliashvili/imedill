@@ -219,6 +219,8 @@ button {
     .main-container .content-container .content .see-more {
       margin-top: 50px;
       position: relative; }
+      .main-container .content-container .content .see-more .button-hide {
+        display: none; }
       .main-container .content-container .content .see-more .active {
         background-color: #6CB5E4;
         color: white; }
@@ -235,12 +237,10 @@ button {
           background-color: #6CB5E4;
           color: white; }
       .main-container .content-container .content .see-more img {
-        position: absolute;
-        top: 34px;
-        left: 154px; }
+        padding: 0px 0 4px 3px; }
       .main-container .content-container .content .see-more .rotate {
         transform: rotate(180deg);
-        padding: 7px 5px 0 0px;
+        padding: 4px 7px 0 0px;
         left: 166px; }
 .main-container .content-box {
   padding-bottom: 10px; }
@@ -381,6 +381,9 @@ footer {
     margin-top: unset; }
     footer .footer-content img {
       margin-bottom: 35px; } }
+.button-hide {
+  display: none; }
+
 * {
   margin: 0;
   padding: 0; }

@@ -350,6 +350,10 @@ button{
                 margin-top: 50px;
                 position: relative;
 
+                .button-hide{
+                    display: none;
+                }
+
 
                 .active{
                     background-color:#6CB5E4;
@@ -365,10 +369,14 @@ button{
                     transition:.4s;
                     outline: none;
                     margin-bottom: 20px;
+
+                    
                 
                     &:hover{
-                        background-color:#6CB5E4;
+                        background-color: #6CB5E4;
                         color: white;
+                       
+                        
                         
                         
                     }
@@ -377,14 +385,12 @@ button{
 
                 img{
                
-                    position: absolute;
-                    top: 34px;
-                    left: 154px;
+                    padding: 0px 0 4px 3px;
                 }
 
                 .rotate{
                     transform: rotate(180deg);
-                    padding: 7px 5px 0 0px;
+                    padding: 4px 7px 0 0px;
                     left: 166px;
                 }
                 
@@ -629,5 +635,10 @@ footer{
     }
 
 
+}
+
+
+.button-hide{
+    display: none;
 }
 
